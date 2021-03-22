@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+h1 {
+    padding-bottom: 20px;
+}
+.email {
+    height: 50vh;
+    background: dodgerblue;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.dadi {
+    height: 50vh;
+    background: greenyellow;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
