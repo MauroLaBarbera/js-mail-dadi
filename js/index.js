@@ -32,3 +32,18 @@ if(emailCorrect === true) {
  * GIOCO DEI DADI
  * 
  */
+
+var giocatore = document.getElementById("giocatore").innerHTML = Math.floor(Math.random() * 6) +1;
+
+var cpu = document.getElementById("cpu").innerHTML = Math.floor(Math.random() * 6) +1;
+
+//RISULTATO
+if (giocatore > cpu) {
+    document.getElementById('risultato').innerHTML= 'Bravo! Hai vinto!';
+    
+} else if (giocatore = cpu) {
+    document.getElementById('risultato').innerHTML= 'Pareggio!';
+
+} else {
+    document.getElementById('risultato').innerHTML= 'Mi dispiace... hai perso :(';
+}
