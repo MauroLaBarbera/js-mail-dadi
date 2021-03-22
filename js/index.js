@@ -9,7 +9,6 @@ console.log(database);
 
 //Domanda utente 
 var email = prompt('Qual è la tua email??');
-email = email.toLocaleLowerCase();
 console.log(email);
 //Controllo email database
 
@@ -41,7 +40,7 @@ var cpu = document.getElementById("cpu").innerHTML = Math.floor(Math.random() * 
 if (giocatore > cpu) {
     document.getElementById('risultato').innerHTML= 'Bravo! Hai vinto!';
     
-} else if (giocatore = cpu) {
+} else if (giocatore == cpu) {
     document.getElementById('risultato').innerHTML= 'Pareggio!';
 
 } else {
