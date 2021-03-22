@@ -32,9 +32,11 @@ if(emailCorrect === true) {
  * 
  */
 
-var giocatore = document.getElementById("giocatore").innerHTML = Math.floor(Math.random() * 6) +1;
+var giocatore = Math.floor(Math.random() * 6) +1;
+var cpu = Math.floor(Math.random() * 6) +1;
 
-var cpu = document.getElementById("cpu").innerHTML = Math.floor(Math.random() * 6) +1;
+document.getElementById('giocatore').innerHTML = 'Giocatore: ' + giocatore;
+document.getElementById('cpu').innerHTML = 'Computer: ' + cpu;
 
 //RISULTATO
 if (giocatore > cpu) {
